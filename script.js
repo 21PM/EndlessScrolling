@@ -19,6 +19,11 @@ function fetchData(){
         
         // console.log(data);
         Getimage(data);
+    }).catch((err)=>{
+        console.log(err);
+        image_Div.innerHTML = 
+        `<h1>Limit has been exeeded Please try after some time </h1>
+        `
     })
 }
 
