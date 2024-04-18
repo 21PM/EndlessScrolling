@@ -1,0 +1,11 @@
+#innerDIv{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    /* margin-bottom: 20px; */
+    padding: 20px;
+}
+#innerDIv img{
+    width: 100%;
+    height: 100%;
+}
